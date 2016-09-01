@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/glide_gift_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jpg图片" />
+
+        <Button
+            android:id="@+id/glide_gif_gift_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gif图片" />
+
+        <Button
+            android:id="@+id/glide_transform_gift_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毛玻璃图片" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/iv_glide_gift"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_glide_gif_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_glide_transform_gift"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>
