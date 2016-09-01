@@ -22,3 +22,5 @@
 }
 
 -keep class com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+
+-dontwarn com.squareup.okhttp.**

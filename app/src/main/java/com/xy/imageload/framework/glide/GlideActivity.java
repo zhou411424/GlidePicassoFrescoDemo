@@ -35,8 +35,8 @@ public class GlideActivity extends AppCompatActivity {
     @OnClick(R.id.glide_gift_btn) public void onGlideGiftOnClick() {
         Glide.with(this)
                 .load(Constants.IMAGE_URL)
-                .placeholder(R.mipmap.loading)
-                .error(R.mipmap.ic_launcher)
+                .placeholder(R.drawable.loading)
+                .error(R.drawable.ic_launcher)
                 .centerCrop()
                 .skipMemoryCache(true)
                 .into(glideGiftIv);
@@ -47,7 +47,7 @@ public class GlideActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(Constants.GIF_IMAGE_URL)
                 .asGif()
-                .placeholder(R.mipmap.loading)
+                .placeholder(R.drawable.loading)
 //                .fitCenter()
                 .into(glideGifGiftIv);
     }
@@ -55,8 +55,8 @@ public class GlideActivity extends AppCompatActivity {
     @OnClick(R.id.glide_transform_gift_btn) public void onGlideTransformGiftOnClick() {
         Glide.with(this)
                 .load(Constants.IMAGE_URL)
-                .placeholder(R.mipmap.loading)
-                .error(R.mipmap.ic_launcher)
+                .placeholder(R.drawable.loading)
+                .error(R.drawable.ic_launcher)
                 .fitCenter()
                 // 毛玻璃效果
 //                .bitmapTransform(new BlurTransformation(GlideActivity.this))
